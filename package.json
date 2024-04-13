@@ -8,7 +8,8 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "start": "tsx main.ts"
+    "start": "node main",
+    "build": "tsc"
   },
   "dependencies": {
     "@playwright/browser-firefox": "^1.43.1",
