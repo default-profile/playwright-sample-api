@@ -8,7 +8,7 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "start": "node main.js"
+    "start": "playwright install firefox && node main.js"
   },
   "dependencies": {
     "@playwright/browser-firefox": "^1.43.1",
